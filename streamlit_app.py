@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("model/model_rf.pkl")
-label_encoder = joblib.load("model/label_encoder.pkl")
+model = joblib.load("model_rf.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 gejala_list = [
     "nyeri_saat_mengunyah", "gusi_bengkak", "bau_mulut", "pendarahan_gusi",
